@@ -7,7 +7,7 @@ def find_even_values(src)
     in_array = 0
     while in_array < src[out_array].count do
       if src[out_array][in_array] % 2 == 0
-        return src[out_array][in_array]
+        p src[out_array][in_array]
       end
       in_array += 1
     end
